@@ -13,6 +13,7 @@ let inputHandler = (event) => { //
   return (
     <>
     <Divider direction="center"> 
+    <h2>Search Box</h2>
     <Input.Search enterButton={true}
     allowClear
     maxLength={20}
