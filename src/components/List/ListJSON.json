@@ -1,31 +1,41 @@
 [{
   "id": 1,
-  "text": "Devpulse"
+  "name": "William 'El Mago' Arjona",
+  "image": "https://volleybox.net/media/upload/players/1615673818pYoq3.png" 
 }, {
   "id": 2,
-  "text": "Linklinks"
+  "name": "Yuji 'Dragon Style' Nishida",
+  "image": "https://volleybox.net/media/upload/players/1635863328zlN7n.png"
 }, {
   "id": 3,
-  "text": "Centizu"
+  "name": "Facundo 'Facu' Conte",
+  "image": "https://volleybox.net/media/upload/players/1607908377V3uIV.png"
 }, {
   "id": 4,
-  "text": "Dynabox"
+  "name": "Maxim Mikhaylov",
+  "image": "https://volleybox.net/media/upload/players/1602667622G7XEo.png"
 }, {
   "id": 5,
-  "text": "Avaveo"
+  "name": "Sergio 'Serginho' Dutra",
+  "image": "https://volleybox.net/media/upload/players/1546744729t9KoO.png"
 }, {
   "id": 6,
-  "text": "Demivee"
+  "name": "Osmany Juantorena",
+  "image": "https://volleybox.net/media/upload/players/1545589998eh4aW.png"
 }, {
   "id": 7,
-  "text": "Jayo"
-}, {
+  "name": "Bruno Resende",
+  "image": "https://volleybox.net/media/upload/players/1545590245f1BAa.png"
+ }, {
   "id": 8,
-  "text": "Blognation"
+  "name": "Murilo Endres",
+  "image": "https://volleybox.net/media/upload/players/1614711983c9NBB.png"
 }, {
   "id": 9,
-  "text": "Podcat"
+  "name": "Lucas Saatkamp",
+  "image": "https://volleybox.net/media/upload/players/1630025439Wz8n6.png"
 }, {
   "id": 10,
-  "text": "Layo"
+  "name": "Ricardo Lucarelli",
+  "image": "https://volleybox.net/media/upload/players/15706242855KenF.png"
 }]

@@ -1,5 +1,6 @@
 import { SearchList } from "./components/List/List"
 import { Divider, Input} from "antd"
+import {SearchBar} from './AppStyle.js'
 import { useState } from "react"
 
 export default function App() {
@@ -12,15 +13,18 @@ let inputHandler = (event) => { //
 
   return (
     <>
-    <Divider direction="center"> 
-    <h2>Search Box</h2>
-    <Input.Search enterButton={true}
+   <SearchBar>
+    <h2>Search your volleyball player</h2>
+    <Input.Search
+    style={{width: 400}} 
+    enterButton={true}
     allowClear
     maxLength={20}
-    onChange={inputHandler}>
-
-    </Input.Search>
-    <SearchList input={inputText /* o valor em minúsculo, sendo também o valor da prop */}></SearchList>
+    onChange={inputHandler}
+    />
+  </SearchBar>
+    <Divider direction="center"> 
+      <SearchList input={inputText /* o valor em minúsculo, sendo também o valor da prop */}/>
     </Divider>
     </> 
   )
